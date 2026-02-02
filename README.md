@@ -16,14 +16,16 @@ This system uses **Content-Based Filtering**:
 3.  **Similarity**: Calculated **Cosine Similarity** between vectors to find the closest matches.
 
 ## 📂 Project Structure
-├── data/ # Dataset files (Movies and Credits)
-├── model/ # Saved pickle files (movie_dict.pkl, similarity.pkl)
-├── Jupyter Notebook for EDA and prototyping
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── Procfile # Configuration for Heroku/Render deployment
-├── setup.sh # Shell script for environment setup
-└── README.md # Project documentation
+```text
+├── data/                # Dataset files (Movies and Credits)
+├── model/               # Saved pickle files (movie_dict.pkl, similarity.pkl)
+├── movie_recommend.ipynb # Jupyter Notebook for EDA and prototyping
+├── app.py               # Main Streamlit application
+├── requirements.txt     # Python dependencies
+├── Procfile             # Configuration for Heroku/Render deployment
+├── setup.sh             # Shell script for environment setup
+└── README.md            # Project documentation
+```
 
 ## ⚡ How to Run Locally
 
@@ -52,7 +54,7 @@ git lfs pull
 streamlit run app.py
 
 ## 🔑 Configuration
-To fetch movie posters, you need a OMDB API Key.
+To fetch movie posters, you need an OMDB API Key.
 
 Generate an API Key.
 
