@@ -1,1 +1,7 @@
 venv
+data/tmdb_5000_credits.csv
+data/tmdb_5000_movies.csv
+*.zip
+model/movies_dict.pkl
+model/movies.pkl
+model/similarity.pkl
