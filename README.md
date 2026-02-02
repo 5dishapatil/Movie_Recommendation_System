@@ -30,29 +30,30 @@ This system uses **Content-Based Filtering**:
 ## ⚡ How to Run Locally
 
 ### 1. Clone the Repository
-
+```bash
 git clone [https://github.com/5dishapatil/Movie_Recommendation_System.git](https://github.com/5dishapatil/Movie_Recommendation_System.git)
 cd Movie_Recommendation_System
+```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
+```
 ### 3. Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Setup Git LFS (Important)
 This project uses large files for the similarity matrix.
-
+```bash
 git lfs install
 git lfs pull
-
+```
 ### 5. Run the App
-
+```bash
 streamlit run app.py
-
+```
 ## 🔑 Configuration
 To fetch movie posters, you need an OMDB API Key.
 
